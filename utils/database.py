@@ -4,9 +4,6 @@ import logging
 
 
 class Database:
-    '''
-    데이터 베이스 제어
-    '''
     def __init__(self,host, user,password, db_name,charset='utf8'):
         self.host = host
         self.user = user
